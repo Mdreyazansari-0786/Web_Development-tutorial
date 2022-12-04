@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+</html>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>waterwave animation</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: black;
+    }
+
+    .water h2 {
+        position: absolute;
+        font-size: 300px;
+        transform: translate(-50%, -50%);
+    }
+
+    .water h2:nth-child(1) {
+        color: transparent;
+        -webkit-text-stroke: 4px rgb(20, 180, 220);
+    }
+
+    .water h2:nth-child(2) {
+        color: rgb(20, 180, 220);
+        animation: waterflow 4s ease-in-out infinite;
+    }
+
+    @keyframes waterflow {
+
+        0%,
+        100% {
+            clip-path: polygon(0% 50%, 8% 57%, 18% 60%, 31% 61%, 46% 56%, 63% 50%, 83% 39%, 98% 56%, 98% 98%, 0% 99%);
+        }
+
+        50% {
+            clip-path: polygon(0% 74%, 0% 74%, 7% 66%, 7% 66%, 12% 61%, 12% 61%, 30% 59%, 30% 59%, 30% 59%, 30% 59%, 43% 64%, 43% 64%, 60% 71%, 60% 71%, 60% 75%, 60% 75%, 79% 75%, 79% 75%, 99% 61%, 99% 61%, 97% 98%, 97% 98%, 2% 98%, 2% 98%);
+        }
+</style>
+</head>
+
+<body>
+    <div class="water">
+        <h2>reyaz</h2>
+        <H2>reyaz</H2>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+body {
+    background-image: url("d2.jpg");
+    background-size: cover;
+    
+   
+
+}
+
+.road {
+    border-bottom: 7px  black;
+}
+
+.charecter {
+    background: url("character\ animation\ image.png");
+    width: 250px;
+    height: 250px;
+    animation: walk 2s steps(10) infinite,
+        forward 5s linear infinite;
+
+}
+@keyframes walk {
+    0%{
+        background-position:0px;
+    }
+    100%{
+        background-position:2500px;
+    }
+
+    
+}
+@keyframes forward{
+    0%{
+        transform: translateX(-350px);
+    }
+    100%{
+        transform: translateX(1400px);
+    }
+}

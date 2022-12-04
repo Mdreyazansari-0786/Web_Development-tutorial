@@ -1,0 +1,125 @@
+body{
+
+overflow: hidden;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: #16cbeb;
+}
+.login-div{
+    margin-top: 50px;
+    margin-bottom: 70px;
+    width: 400px;
+    height: 550px;
+    padding: 40px 30px 30px 30px;
+    border-radius:30px;
+    background:#4b84b1;
+    box-shadow:13px  13px 20px #52bef0, 
+               -13px -13px 20px #e5eef0;
+            
+}
+.user-input{
+    margin: 15px;
+    padding: 15px;
+    width: 65%;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+    background: none;
+    color: black;
+}
+button{
+    background-color: rgb(55, 178, 235);
+    padding: 5px;
+    width: 115px;
+    font-size:30px;
+    font-style:italic;
+    text-align:center;
+    text-transform:capitalize;  
+    border-radius: 30px;  
+    outline: none;
+    cursor: pointer;
+}
+button:hover{
+    background: rgb(4, 180, 250);
+    color: white;
+}
+.logo{
+background: url("final\ logo.jpg");
+width: 162px;
+height: 165px;
+border-radius: 50%;
+margin: 0% auto;
+box-shadow:
+0px 0px 0px 3px rgb(110, 218, 218);
+}
+.title{
+    font-style: italic;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: #16cbeb;
+    text-transform: capitalize;
+    margin: 10px;
+    font-size: 30px;
+    text-decoration: dotted;
+    padding-top: 5px;
+    
+
+}
+.sub_title{
+    font-size: 20px;
+    font-weight: 500;
+    font-style: oblique;
+    text-align: center;
+    text-transform: capitalize;
+    font-style: unset;
+    margin-bottom: 20px;
+}
+.link {
+    font-size: medium;
+    font-weight: 800;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-style: italic;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration-color: #16cbeb;
+    margin-top: -10px;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.Username{
+    margin-bottom: 30px;
+    border-radius: 25px;
+    border: 2px solid black;
+    box-shadow: inset 8px 8px 8px rgb(110, 210, 218),
+                inset -8px  -8px 8px rgb(230, 150, 223);
+                background: white;
+}
+.password{
+    margin-bottom: 30px;
+    border-radius: 25px;
+    background: white;
+    border: 2px solid rgb(4, 0, 8);
+    box-shadow: inset 8px 8px 8px rgb(42, 211, 233),
+                inset -8px  -8px 8px rgb(230, 150, 223);
+}
+.Username svg{
+    height: 20px;
+    margin-left: 30px;
+    border: 1px solid blue;
+    margin-top: 20px;
+    color: blue;
+    
+     
+}
+.password svg{
+    height: 20px;
+    margin-left: 30px;
+    border: 1px solid blue;
+    margin-top: 20px;
+    
+}

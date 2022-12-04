@@ -1,0 +1,51 @@
+body{
+    
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    animation: bg-color 5s infinite;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+
+}
+.bird{
+    width:25%;
+    left: 100%;
+    position: relative;
+    animation: fly 4s infinite;
+}
+@keyframes bg-color{
+    0%{background-image :url("d1.jpg")}
+    25%{background-color: rgb(1, 12, 38);}
+    30%{background-color: aqua;}
+    35%{background-color: rgb(243, 247, 247);}
+    50%{background-color: rgb(219, 57, 36);}
+    75%{background-color: rgb(72, 94, 215);}
+    90%{background-color: rgb(224, 253, 7);}
+   100%{background-color: rgb(251, 0, 255);}
+    
+}
+@keyframes fly{
+    0%{
+        left: -20%;
+        top: 30px;
+    }
+    25%{
+        top: 200px;
+    }
+    50%{
+        top:150px;
+
+    }
+    75%{
+        top: 25px;
+    }
+    100%{
+        top: -30px;
+        right:100px;
+
+    }
+}

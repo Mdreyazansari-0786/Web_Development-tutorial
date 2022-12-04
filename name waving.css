@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    background-color: black;
+    text-shadow: 3px 4px red;
+}
+div{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    font-weight: bolder;
+    color: aqua;
+}
+h1{
+    font-size: 90px;
+}
+h1 span{
+    position: relative;
+    top: 40px;
+    display: inline-block;
+    animation: bouncing .3s ease infinite alternate;
+    font-family: 'jokerman'
+
+}
+h1 span:nth-child(2){animation-delay:.1s;}
+h1 span:nth-child(3){animation-delay:.2s;}
+h1 span:nth-child(4){animation-delay:.3s;}
+h1 span:nth-child(5){animation-delay:.4s;}
+h1 span:nth-child(6){animation-delay:.5s;}
+h1 span:nth-child(7){animation-delay:.6s;}
+h1 span:nth-child(8){animation-delay:.7s;}
+h1 span:nth-child(9){animation-delay:.8s;}
+h1 span:nth-child(10){animation-delay:.9s;}
+
+@keyframes bouncing
+{
+    100%
+    {
+        top: -50px;
+    }
+}
+
